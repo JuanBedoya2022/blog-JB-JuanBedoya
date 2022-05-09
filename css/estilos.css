@@ -1,0 +1,1005 @@
+/*BLOG CREADO POR: JUAN DAVID BEDOYA SALAZAR*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 4px 25px -22px red;
+    z-index: 2;
+}
+
+
+
+/*JavaScript*/
+.header-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/*html*/
+.header-html{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/*css*/
+.header-css{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/*Estudiante*/
+.header-est{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*JavaScript*/
+.logo{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*html*/
+.logohtml{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*css*/
+.logocss{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Estudiante*/
+.logoest{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*JavaScript*/
+.logo h1 b{
+    color: #f00;
+}
+/*html*/
+.logohtml h1 b{
+    color: #f00;
+}
+/*css*/
+.logocss h1 b{
+    color: #f00;
+}
+/*Estudiante*/
+.logoest h1 b{
+    color: #f00;
+}
+
+/*JavaScript*/
+.menu{
+    height: 80px;
+}
+/*html*/
+.menuhtml{
+    height: 80px;
+}
+/*css*/
+.menucss{
+    height: 80px;
+}
+/*Estudiante*/
+.menuest{
+    height: 80px;
+}
+
+/*JavaScript*/
+.menu nav{
+    height: 100%;
+}
+/*html*/
+.menuhtml nav{
+    height: 100%;
+}
+/*css*/
+.menucss nav{
+    height: 100%;
+}
+/*Estudiante*/
+.menuest nav{
+    height: 100%;
+}
+
+/*JavaScript*/
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+
+}
+/*html*/
+.menuhtml nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+
+}
+/*css*/
+.menucss nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+
+}
+/*Estudiante*/
+.menuest nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+
+}
+
+/*JavaScript*/
+.menu nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+/*html*/
+.menuhtml nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+/*css*/
+.menucss nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+/*Estudiante*/
+.menuest nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/*JavaScript*/
+.menu-selected:before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #f00;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+/*html*/
+.menuhtml-selected:before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #f00;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+/*css*/
+.menucss-selected:before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #f00;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+/*Estudiante*/
+.menuest-selected:before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #f00;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+/*JavaScript*/
+.menu nav ul li a{
+    color: #777777;
+    font-size: 18px;
+    transition: color 300ms;
+}
+/*html*/
+.menuhtml nav ul li a{
+    color: #777777;
+    font-size: 18px;
+    transition: color 300ms;
+}
+/*css*/
+.menucss nav ul li a{
+    color: #777777;
+    font-size: 18px;
+    transition: color 300ms;
+}
+/*Estudiante*/
+.menuest nav ul li a{
+    color: #777777;
+    font-size: 18px;
+    transition: color 300ms;
+}
+
+/*JavaScript*/
+.menu nav ul li a:hover{
+    color: #f00;
+}
+/*html*/
+.menuhtml nav ul li a:hover{
+    color: #f00;
+}
+/*css*/
+.menucss nav ul li a:hover{
+    color: #f00;
+}
+/*Estudiante*/
+.menuest nav ul li a:hover{
+    color: #f00;
+}
+
+/*JavaScript*/
+.menu .text-menu-selected{
+    color: #f00;
+
+}
+/*html*/
+.menuhtml .text-menu-selected{
+    color: #f00;
+
+}
+/*css*/
+.menucss .text-menu-selected{
+    color: #f00;
+
+}
+/*Estudiante*/
+.menuest .text-menu-selected{
+    color: #f00;
+
+}
+
+
+/*portada*/
+
+/*JavaScript*/
+.container-cover{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-top: 80px;
+    background-image: url(../img/JS.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*html*/
+.container-cover-html{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-top: 80px;
+    background-image: url(../img/HTML.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*css*/
+.container-cover-css{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-top: 80px;
+    background-image: url(../img/css.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*Estudiante*/
+.container-cover-est{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-top: 80px;
+    background-image: url(../img/UNIR.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*JavaScript*/
+.container-info-cover{
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/*html*/
+.container-info-cover-html{
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/*css*/
+.container-info-cover-css{
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/*Estudiante*/
+.container-info-cover-est{
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*JavaScript*/
+.container-info-cover h1{
+    font-size: 60px;
+    font-weight: 500;
+    color:rgb(246, 10, 10);
+    margin-bottom: 20px;
+
+}
+/*html*/
+.container-info-cover-html h1{
+    font-size: 60px;
+    font-weight: 500;
+    color:rgb(16, 15, 15);
+    margin-bottom: 20px;
+
+}
+/*css*/
+.container-info-cover-css h1{
+    font-size: 60px;
+    font-weight: 500;
+    color:rgb(16, 15, 15);
+    margin-bottom: 20px;
+
+}
+/*Estudiante*/
+.container-info-cover-est h1{
+    font-size: 60px;
+    font-weight: 500;
+    color:rgb(247, 7, 7);
+    margin-bottom: 20px;
+
+}
+
+/*JavaScript*/
+.container-info-cover p{
+    color:rgb(240, 12, 12);
+    font-size: 20px;
+    font-weight: 300;
+
+}
+/*html*/
+.container-info-cover-html p{
+    color:rgb(16, 15, 15);
+    font-size: 20px;
+    font-weight: 300;
+
+}
+/*css*/
+.container-info-cover-css p{
+    color:rgb(16, 15, 15);
+    font-size: 20px;
+    font-weight: 300;
+
+}
+/*Estudiante*/
+.container-info-cover-css p{
+    color:rgb(241, 12, 12);
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+/*contenedor -  contenido del articulo*/
+
+/*JavaScript*/
+.container-content{
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+/*html*/
+.container-content-html{
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+/*css*/
+.container-content-css{
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+/*Estudiante*/
+.container-content-est{
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+article{
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+    box-shadow: -10px 0 20px -30px red;
+    border-radius: 6px;
+    position:relative;
+    overflow: hidden;
+}
+
+article::before{
+    content: '';
+    width: 100%;
+    height: 6px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background: #f00;
+
+}
+
+article h1{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+article p{
+    margin-top: 20px;
+    font-size: 18px;
+    color:#777777;
+
+}
+
+article img{
+    width: 50%;
+    margin-top: 20px;
+    
+    
+}
+
+/*aside para los articulos relacionados */
+
+/*JavaScript*/
+.container-aside aside{
+    width: 320px;
+    border-radius: 6px;
+    box-shadow: 0 0 20px -20px red;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    
+}
+/*html*/
+.container-aside-html aside{
+    width: 320px;
+    border-radius: 6px;
+    box-shadow: 0 0 20px -20px red;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    
+}
+/*css*/
+.container-aside-css aside{
+    width: 320px;
+    border-radius: 6px;
+    box-shadow: 0 0 20px -20px red;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    
+}
+
+/*JavaScript*/
+.container-aside aside img{
+    width: 100%;
+}
+/*html*/
+.container-aside-html aside img{
+    width: 100%;
+}
+/*css*/
+.container-aside-css aside img{
+    width: 100%;
+}
+
+/*JavaScript*/
+.container-aside aside h2,
+.container-aside aside p{
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+/*html*/
+.container-aside-html aside h2,
+.container-aside-html aside p{
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+/*css*/
+.container-aside-css aside h2,
+.container-aside-css aside p{
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+
+/*JavaScript*/
+.container-aside aside button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #f00;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 6px;
+
+}
+/*html*/
+.container-aside-html aside button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #f00;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 6px;
+
+}
+/*css*/
+.container-aside-css aside button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #f00;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 6px;
+
+}
+
+/*JavaScript*/
+.container-aside aside button:hover{
+    opacity: 0.9;
+
+}
+/*html*/
+.container-aside-html aside button:hover{
+    opacity: 0.9;
+
+}
+/*css*/
+.container-aside-css aside button:hover{
+    opacity: 0.9;
+
+}
+
+
+/*footer para pie de pagina*/
+/*JavaScript*/
+.container-footer{
+    width: 100%;
+    padding: 40px 0;
+    background: #f7f7f7;
+    margin-top: 40px;
+
+}
+/*html*/
+.container-footer-html{
+    width: 100%;
+    padding: 40px 0;
+    background: #f7f7f7;
+    margin-top: 40px;
+
+}
+/*css*/
+.container-footer-css{
+    width: 100%;
+    padding: 40px 0;
+    background: #f7f7f7;
+    margin-top: 40px;
+
+}
+/*Estudiante*/
+.container-footer-est{
+    width: 100%;
+    padding: 40px 0;
+    background: #f7f7f7;
+    margin-top: 40px;
+
+}
+
+/*JavaScript*/
+.container-footer footer{
+    max-width: 1200px;
+    margin: auto;
+
+}
+/*html*/
+.container-footer-html footer{
+    max-width: 1200px;
+    margin: auto;
+
+}
+/*css*/
+.container-footer-css footer{
+    max-width: 1200px;
+    margin: auto;
+
+}
+/*Estudiante*/
+.container-footer-est footer{
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+/*JavaScript*/
+.container-footer footer .logo-footer{
+    text-align: center;
+
+}
+/*html*/
+.container-footer-html footer .logo-footer-html{
+    text-align: center;
+
+}
+/*css*/
+.container-footer-css footer .logo-footer-css{
+    text-align: center;
+
+}
+/*Estudiante*/
+.container-footer-est footer .logo-footer-est{
+    text-align: center;
+
+}
+
+/*JavaScript*/
+.container-footer footer .logo-footer img{
+    width: 200px;
+
+}
+/*html*/
+.container-footer-html footer .logo-footer-html img{
+    width: 200px;
+
+}
+/*css*/
+.container-footer-css footer .logo-footer-css img{
+    width: 200px;
+
+}
+/*Estudiante*/
+.container-footer-est footer .logo-footer-est img{
+    width: 200px;
+
+}
+
+/*JavaScript*/
+.container-footer footer .redes-sociales{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+/*html*/
+.container-footer-html footer .redes-sociales-html{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+/*css*/
+.container-footer-css footer .redes-sociales-css{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+/*Estudiante*/
+.container-footer-est footer .redes-sociales-est{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*JavaScript*/
+.container-footer footer .redes-sociales .iconos-RFooter{
+    font-size: 20px;
+    margin: 20px;
+    background: #efefef;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+
+
+}
+/*html*/
+.container-footer-html footer .redes-sociales-html .iconos-RFooter1{
+    font-size: 20px;
+    margin: 20px;
+    background: #efefef;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+
+
+}
+/*css*/
+.container-footer-css footer .redes-sociales-css .iconos-RFooter2{
+    font-size: 20px;
+    margin: 20px;
+    background: #efefef;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+
+
+}
+/*Estudiante*/
+.container-footer-est footer .redes-sociales-est .iconos-RFooter3{
+    font-size: 20px;
+    margin: 20px;
+    background: #efefef;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+
+
+}
+
+/*JavaScript*/
+.container-footer footer .redes-sociales .fa-facebook:hover{
+    background:  #41579a;
+    color: #fff;
+
+}
+/*html*/
+.container-footer-html footer .redes-sociales-html .fa-facebook:hover{
+    background:  #41579a;
+    color: #fff;
+
+}
+/*css*/
+.container-footer-css footer .redes-sociales-css .fa-facebook:hover{
+    background:  #41579a;
+    color: #fff;
+
+}
+/*Estudiante*/
+.container-footer-est footer .redes-sociales-est .fa-facebook:hover{
+    background:  #41579a;
+    color: #fff;
+
+}
+
+/*JavaScript*/
+.container-footer footer .redes-sociales .fa-instagram:hover{
+    background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+    color: #fff;
+
+}
+/*html*/
+.container-footer-html footer .redes-sociales-html .fa-instagram:hover{
+    background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+    color: #fff;
+
+}
+/*css*/
+.container-footer-css footer .redes-sociales-css .fa-instagram:hover{
+    background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+    color: #fff;
+
+}
+/*Estudiante*/
+.container-footer-est footer .redes-sociales-est .fa-instagram:hover{
+    background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+    color: #fff;
+
+}
+
+/*JavaScript*/
+.container-footer footer .redes-sociales .fa-whatsapp:hover{
+    background: #08ee08;
+    color: #fff;
+
+}
+/*html*/
+.container-footer-html footer .redes-sociales-html .fa-whatsapp:hover{
+    background: #08ee08;
+    color: #fff;
+
+}
+/*css*/
+.container-footer-css footer .redes-sociales-css .fa-whatsapp:hover{
+    background: #08ee08;
+    color: #fff;
+
+}
+/*Estudiante*/
+.container-footer-est footer .redes-sociales-est .fa-whatsapp:hover{
+    background: #08ee08;
+    color: #fff;
+
+}
+
+/*JavaScript*/
+.container-footer footer hr{
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    background: #7a7a7a7a;
+}
+/*html*/
+.container-footer-html footer hr{
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    background: #7a7a7a7a;
+}
+/*css*/
+.container-footer-css footer hr{
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    background: #7a7a7a7a;
+}
+/*Estudiante*/
+.container-footer-est footer hr{
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    background: #7a7a7a7a;
+}
+
+/*JavaScript*/
+.container-footer h4{
+    text-align: center;
+    margin-top: 40px;
+    color: #8e8e8e;
+    font-weight: 500px;
+
+}
+/*html*/
+.container-footer-html h4{
+    text-align: center;
+    margin-top: 40px;
+    color: #8e8e8e;
+    font-weight: 500px;
+
+}
+/*css*/
+.container-footer-css h4{
+    text-align: center;
+    margin-top: 40px;
+    color: #8e8e8e;
+    font-weight: 500px;
+
+}
+/*Estudiante*/
+.container-footer-est h4{
+    text-align: center;
+    margin-top: 40px;
+    color: #8e8e8e;
+    font-weight: 500px;
+
+}
+
+
+
+
